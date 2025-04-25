@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Task Manager</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-bs-theme="dark">
+    <nav class="navbar bg-black">
+      <h1 class="d-none">Task Manager</h1>
+      <div class="container">
+        <a class="navbar-brand" href="/">Task Manager</a>
+        <span class="text-secondary">Ekin Aslan | 05180000097</span>
+        <button class="btn btn-primary ms-auto py-0" onclick="createButton()">
+          <i class="fa-solid fa-plus"></i> Create Task
+        </button>
+      </div>
+    </nav>
+    <main>
+      <section class="container py-5">
+        <div>
+          <h2>Urgent Tasks</h2>
+          <hr class="my-4" />
+          <div id="urgent-tasks" class="row row-cols-3 mb-5">
+            <div class="position-relative w-100">
+              <p class="alert alert-success m-0 p-2 text-center">
+                There are no urgent tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>All Tasks</h2>
+          <hr class="my-4" />
+          <div
+            id="all-tasks"
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3"
+          >
+            <div class="position-relative w-100">
+              <p class="alert alert-success m-0 p-2 text-center">
+                There are no tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modal fade">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title">Task</h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <input type="hidden" id="id" />
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="title"
+                  placeholder
+                />
+                <label for="title">Title</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  id="description"
+                  placeholder
+                  style="height: 6.125rem"
+                ></textarea>
+                <label for="description">Description</label>
+              </div>
+              <p class="small mb-2 text-secondary">Seperate tags with comma.</p>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="tags" placeholder />
+                <label for="tags">Tags</label>
+              </div>
+              <p class="small mb-2 text-secondary">Deadline</p>
+              <input
+                class="form-control"
+                type="datetime-local"
+                id="deadline"
+                style="width: 100%; height: 3.625rem"
+              />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/0460a9927e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

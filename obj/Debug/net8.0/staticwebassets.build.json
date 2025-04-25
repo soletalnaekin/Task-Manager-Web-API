@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "4J1kndkHHvlha1bYm1ieNPFIdcyraLTK9cO5DnkiTmg=",
+  "Source": "TaskManager",
+  "BasePath": "_content/TaskManager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TaskManager\\wwwroot",
+      "Source": "TaskManager",
+      "ContentRoot": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\",
+      "BasePath": "_content/TaskManager",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\index.html",
+      "SourceId": "TaskManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\",
+      "BasePath": "_content/TaskManager",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0up1nl6ta",
+      "Integrity": "vm64Jm3ZpZ6h49KvNJTPuHJLb8LqKAF3tWCLBybA1g4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\script.js",
+      "SourceId": "TaskManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\",
+      "BasePath": "_content/TaskManager",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "13n901efl1",
+      "Integrity": "494sTqsJqzGFUWmrFwVG0yEU4QX9gXZM1P1GOZt5bC0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\x.html",
+      "SourceId": "TaskManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\",
+      "BasePath": "_content/TaskManager",
+      "RelativePath": "x#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sruttts875",
+      "Integrity": "+C1cToQwtiiq8rjovYU9Y528tRoI7SjWoEbM3Moazzw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\x.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vm64Jm3ZpZ6h49KvNJTPuHJLb8LqKAF3tWCLBybA1g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vm64Jm3ZpZ6h49KvNJTPuHJLb8LqKAF3tWCLBybA1g4="
+        }
+      ]
+    },
+    {
+      "Route": "index.y0up1nl6ta.html",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vm64Jm3ZpZ6h49KvNJTPuHJLb8LqKAF3tWCLBybA1g4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0up1nl6ta"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vm64Jm3ZpZ6h49KvNJTPuHJLb8LqKAF3tWCLBybA1g4="
+        }
+      ]
+    },
+    {
+      "Route": "script.13n901efl1.js",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"494sTqsJqzGFUWmrFwVG0yEU4QX9gXZM1P1GOZt5bC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "13n901efl1"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-494sTqsJqzGFUWmrFwVG0yEU4QX9gXZM1P1GOZt5bC0="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"494sTqsJqzGFUWmrFwVG0yEU4QX9gXZM1P1GOZt5bC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:25:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-494sTqsJqzGFUWmrFwVG0yEU4QX9gXZM1P1GOZt5bC0="
+        }
+      ]
+    },
+    {
+      "Route": "x.html",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\x.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+C1cToQwtiiq8rjovYU9Y528tRoI7SjWoEbM3Moazzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 21:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+C1cToQwtiiq8rjovYU9Y528tRoI7SjWoEbM3Moazzw="
+        }
+      ]
+    },
+    {
+      "Route": "x.sruttts875.html",
+      "AssetFile": "C:\\Users\\ekina\\source\\repos\\TaskManager\\wwwroot\\x.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+C1cToQwtiiq8rjovYU9Y528tRoI7SjWoEbM3Moazzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 21:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sruttts875"
+        },
+        {
+          "Name": "label",
+          "Value": "x.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+C1cToQwtiiq8rjovYU9Y528tRoI7SjWoEbM3Moazzw="
+        }
+      ]
+    }
+  ]
+}
